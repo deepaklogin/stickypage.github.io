@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Chilanka&display=swap');
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+nav
+{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100px;
+	padding: 10px 100px;
+	box-sizing: border-box;
+	transition: .5s;
+}
+nav .logo
+{
+	float: left;
+}
+nav.black .logo img
+{
+	height: 60px;
+}
+nav .logo img
+{
+	height: 80px;
+	transition: .5s;
+}
+nav ul
+{
+	float: right;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+nav ul li
+{
+	list-style: none
+}
+nav.black ul li a
+{
+	color: #fff;
+	line-height: 40px;
+}
+nav ul li a
+{
+	line-height: 80px;
+	border-color: #262626;
+	padding: 5px 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: 'Chilanka', cursive;
+	transition: .5s;
+	color: yellow;
+}
+nav ul li a.active
+{
+	color: #fff;
+	background: #f00;
+	padding: 10px 20px;
+	text-align: center
+}
+nav ul li a.active:hover
+{
+	background: green;
+}
+nav ul li a:hover
+{
+	background: green;
+	padding: 10px 20px;
+	text-align: center
+}
+section.sec1
+{
+	width: 100%;
+	height: 100vh;
+	background: url('pic.jpg');
+	background-size: cover;
+}
+section.sec2 h1
+{
+	color: #E89A1A;
+	text-decoration: underline;
+	text-decoration-color: #08E8A1; 
+}
+section.sec2
+{
+	padding: 100px;
+	color: blue;
+}
+section.sec3
+{
+	width: 100%;
+	height: 100vh;
+	background: url('deepak.jpg');
+	background-size: cover;
+}
+nav.black
+{
+	background: rgba(0, 0, 0, .8);
+	height: 60px;
+	padding: 10px 50px;
+}
+
+section.sec4
+{
+	width: 100%;
+	height: 100vh;
+	background: url('3ftU5ZZ.jpg');
+	background-size: cover;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+section.sec5
+{
+	width: 100%;
+	height: 100vh;
+	background: url('4f1nsui.jpg');
+	background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
